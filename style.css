@@ -80,13 +80,14 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 5px 20em;
+    padding: 7em 20em;
 }
 
 .testimonies-quote {
     color: #1F2937;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .testimonies-author {
