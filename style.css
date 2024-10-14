@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 5px 15em;
+    padding: 5px 12em;
 }
 
 .header-logo {
@@ -37,7 +37,14 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 5px 15em;
+    padding: 5em 12em;
+    gap: 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .hero-text-main {
@@ -47,6 +54,23 @@ body {
 }
 
 .hero-text-sub {
+    font-weight: light;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-img {
+    width: 500px;
+    height: auto;
 }
