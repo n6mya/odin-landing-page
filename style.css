@@ -10,11 +10,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    color: #F9FAF8;
     padding: 5px 15em;
 }
 
 .header-logo {
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
 }
@@ -27,3 +27,26 @@ body {
     font-size: 18px;
 }
 
+.header-link {
+    color:#E5E7EB
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 5px 15em;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
