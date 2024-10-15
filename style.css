@@ -97,6 +97,45 @@ body {
     font-size: 24px;
 }
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em 12em;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    flex: 1 1 1100px;
+    padding: 3em 8em;
+    border-radius: 15px;
+}
+
+.cta-text-main {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-text-sub {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.cta-button {
+    align-self: center;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 30px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+
 .footer {
     display: flex;
     justify-content: center;
